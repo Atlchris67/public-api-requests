@@ -19,7 +19,7 @@ let usersPromise = fetchData(randomUserAPI).then(data =>
 );
 
 // ------------------------------------------
-//  Build and Build Page Methods
+//Build Page
 // ------------------------------------------
 
 // creates the searchbar
@@ -160,7 +160,7 @@ function createInfoContainer(user) {
     <p class="modal-text">${user.email}</p>
     <p class="modal-text cap">${user.location.state}</p>
     <hr>
-    <p class="modal-text">${user.phone}</p>
+    <p class="modal-text">${user.cell}</p>
     <p class="modal-text cap">${user.location.street.number} ${user.location.street.name}</p>
     <p class="modal-text cap"> ${user.location.city}, ${abbrvState(user.location.state)} ${user.location.postcode}</p>
     <p class="modal-text">Birthday: ${birthday}</p>
