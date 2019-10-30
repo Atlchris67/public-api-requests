@@ -33,4 +33,4 @@ Public API Requests
 
 - **[x] Add a way to move back and forth between employee detail windows when the modal window is open.**
 
-- **[x] Add or change at least one of the following look and feel - I used an ease out affect on user image to go from grayscale to color**
+- **[x] Add or change at least one of the following look and feel - I used an hover affect on user image to go from grayscale to color**
